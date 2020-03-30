@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux
 
 RUN set -xe \
     && useradd -u 1000 -m alarm \
